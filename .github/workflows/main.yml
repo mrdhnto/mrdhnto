@@ -10,6 +10,8 @@ on:
 jobs:
   update-content:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
 
       - name: 🦑 Personal metrics
@@ -125,7 +127,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           
