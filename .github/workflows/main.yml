@@ -4,7 +4,7 @@ on:
     - cron: "0 */6 * * *"
   push:
     branches:
-      - master
+#      - master
       - main
   workflow_dispatch:
 jobs:
@@ -123,15 +123,21 @@ jobs:
           plugin_followup: yes
           plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
 
+      - name: Test Action v2
+        if: ${{ success() || failure() }}
+        uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+
       - name: 📰 Summary card
-        uses: ./.github/workflows/generate-summary-card.yml
-#      - name: 📰 Summary card
-#        if: ${{ success() || failure() }}
-#        uses: vn7n24fzkq/github-profile-summary-cards@release
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#        with:
-#          USERNAME: ${{ github.repository_owner }}
+        if: ${{ success() || failure() }}
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
           
       - name: 📊 Update readme wakatime
         uses: athul/waka-readme@master
