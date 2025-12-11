@@ -34,7 +34,7 @@
     <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
     <img alt="Vite" src="https://img.shields.io/badge/vite-%23f8d65b.svg?style=for-the-badge&logo=vite&logoColor=%239e69f7"/>
     <img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-    <img alt="Drizzle-ORM" src="https://img.shields.io/badge/Drizzle-%23000000svg?style=for-the-badge&logo=drizzle&logoColor=C5F74F"/>
+    <img alt="Drizzle-ORM" src="https://img.shields.io/badge/Drizzle-%23000000?style=for-the-badge&logo=drizzle&logoColor=C5F74F"/>
     <img alt="Sequelize" src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>
     <img alt="PostgreSQL" src="https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white"/>
     <!-- <img alt="MariaDB" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/> -->
@@ -61,7 +61,6 @@
   <!-- <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> -->
 </p>
 
-### Photo/Video Tools:
 <p>
   <img alt="Affinity" src="https://img.shields.io/static/v1?style=for-the-badge&message=Affinity&color=7f4dd4&logo=Affinity+Photo&logoColor=ec7dff&label="/>
   <img alt="Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"/>
