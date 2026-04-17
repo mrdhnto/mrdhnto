@@ -7,7 +7,7 @@
 ---
 - 💼 I’m currently working at Telco Company as Full-Stack Developer and Server Administrator.
 - 💻 Also working as Freelance doing WEB Dev, IT Support & Linux Server Administrator.
-- 🌱 I’m currently learning Web Dev, Linux, DevOps & other Dev-Related skills.
+- 🌱 I’m currently investing my skill into AI and learning to combine with Web Dev, DevOps & other Dev-Related skills.
 - 🥅 2026 Goals: Same as 2025 too?? Maybe....
 - ⚡ Fun fact: I'm Mood-Driven Person, whenever my mood strikes I'll working without paying any attention to my surrounding even on myself.
 
