@@ -4,91 +4,22 @@
 </a>
 </p>
 
----
-- 💼 I’m currently working at Telco Company as Full-Stack Developer and Server Administrator.
-- 💻 Also working as Freelance doing WEB Dev, IT Support & Linux Server Administrator.
-- 🌱 I’m currently investing my skill into AI and learning to combine it with Web Dev, DevOps & other Dev-Related skills.
-- 🥅 2026 Goals: Same as 2025 too?? Maybe....
+###
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/mrdhnto/mrdhnto/master/profile-summary-card-output/vue/0-profile-details.svg" alt="Mrdhnto github stats"/>
+</div>
 
-### Connect with me:
-[![Portfolio][cvwebsiteimg]][cvwebsite]
-[![LinkedIn][linkedinimg]][linkedin]
+<br clear="both">
 
+<img align="left" width="390" src="https://raw.githubusercontent.com/mrdhnto/mrdhnto/master/profile-summary-card-output/vue/3-stats.svg" alt="Stats"/>
+<img align="right" width="390" src="https://raw.githubusercontent.com/mrdhnto/mrdhnto/master/profile-summary-card-output/vue/1-repos-per-language.svg" alt="Repos per language"/>
 
-### Languages and Tools:
-<p>
-  <img alt="HTML5" src="https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=E34F26&logo=HTML5&logoColor=FFFFFF&label="/>
-  <img alt="CSS3" src="https://img.shields.io/static/v1?style=for-the-badge&message=CSS3&color=1572B6&logo=CSS3&logoColor=FFFFFF&label="/>
-  <img alt="JavaScript" src="https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=323330&logo=JavaScript&logoColor=F7DF1E&label="/>
-  <img alt="PHP" src="https://img.shields.io/static/v1?style=for-the-badge&message=PHP&color=777BB4&logo=PHP&logoColor=FFFFFF&label="/>
-  <!-- <img alt="Shell Script" src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/> -->
-  <img alt="Markdown" src="https://img.shields.io/static/v1?style=for-the-badge&message=Markdown&color=000000&logo=Markdown&logoColor=FFFFFF&label="/>
-  <img alt="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
-</p>
+<br clear="both">
 
-<p>
-    <img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-    <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4fc08d?&logo=vuedotjs&logoColor=white&style=for-the-badge"/>
-    <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
-    <img alt="Vite" src="https://img.shields.io/badge/vite-%23f8d65b.svg?style=for-the-badge&logo=vite&logoColor=%239e69f7"/>
-    <img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-    <img alt="Drizzle-ORM" src="https://img.shields.io/badge/Drizzle-%23000000?style=for-the-badge&logo=drizzle&logoColor=C5F74F"/>
-    <img alt="Sequelize" src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>
-    <img alt="PostgreSQL" src="https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-    <!-- <img alt="MariaDB" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/> -->
-    <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
-    <!-- <img alt="Jasmine" src="https://img.shields.io/badge/jasmine-%238A4182.svg?style=for-the-badge&logo=jasmine&logoColor=white"/> -->
-    <img alt="Cypress" src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e"/>
-    <!-- <img alt="Webpack" src="https://img.shields.io/static/v1?style=for-the-badge&message=Webpack&color=222222&logo=Webpack&logoColor=8DD6F9&label="/> -->
-    <!-- <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/> -->
-    <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
-    <img alt="Swagger" src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white"/>
-    <img alt="CodeIgniter" src="https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white"/>
-    <img alt="Postman" src="https://img.shields.io/static/v1?style=for-the-badge&message=Postman&color=FF6C37&logo=Postman&logoColor=FFFFFF&label="/>
-    <!-- <img alt="Tauri" src="https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF"/> -->
-</p>
-
-<p>
-  <img alt="Visual Studio Code" src="https://img.shields.io/static/v1?style=for-the-badge&message=Visual+Studio+Code&color=007ACC&logo=Visual+Studio+Code&logoColor=FFFFFF&label="/>
-  <img alt="Sublime Text" src="https://img.shields.io/static/v1?style=for-the-badge&message=Sublime+Text&color=222222&logo=Sublime+Text&logoColor=FF9800&label="/>
-  <img alt="Google Cloud" src="https://img.shields.io/static/v1?style=for-the-badge&message=Google+Cloud&color=4285F4&logo=Google+Cloud&logoColor=FFFFFF&label="/>
-<!--   <img alt="Heroku" src="https://img.shields.io/static/v1?style=for-the-badge&message=Heroku&color=430098&logo=Heroku&logoColor=FFFFFF&label="/> -->
-  <img alt="Docker" src="https://img.shields.io/static/v1?style=for-the-badge&message=Docker&color=2496ED&logo=Docker&logoColor=FFFFFF&label="/>
-  <!-- <img alt="Apache" src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white"/> -->
-  <!-- <img alt="Nginx" src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"/> -->
-  <!-- <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> -->
-</p>
-
-<p>
-  <img alt="Affinity" src="https://img.shields.io/static/v1?style=for-the-badge&message=Affinity&color=7f4dd4&logo=Affinity+Photo&logoColor=ec7dff&label="/>
-  <img alt="Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"/>
-  <img alt="Figma" src="https://img.shields.io/static/v1?style=for-the-badge&message=Figma&color=F24E1E&logo=Figma&logoColor=FFFFFF&label="/>
-  <!-- <img alt="Adobe Photoshop" src="https://img.shields.io/static/v1?style=for-the-badge&message=Adobe+Photoshop&color=25d2fd&logo=Adobe+Photoshop&logoColor=032831&label="/>
-  <img alt="Vegas Pro" src="https://img.shields.io/badge/vegas_pro-%231195cf.svg?style=for-the-badge&logo=sony+vegas&logoColor=%231195cf"/>
-  <img alt="Adobe Premiere Pro" src="https://img.shields.io/static/v1?style=for-the-badge&message=Adobe+Premiere+Pro&color=ea77ff&logo=Adobe+Premiere+Pro&logoColor=2a0034&label="/> -->
-</p>
-
----
-
-### My Stats
-<p align="center">
-    <a href="https://github.com/mrdhnto">
-        <img src="https://raw.githubusercontent.com/mrdhnto/mrdhnto/master/profile-summary-card-output/vue/0-profile-details.svg" alt="Mrdhnto github stats"/>
-    </a>
-    <div align="center" style="display:flex; justify-content:center;">
-      <a href="https://github.com/mrdhnto">
-        <img src="https://raw.githubusercontent.com/mrdhnto/mrdhnto/master/profile-summary-card-output/vue/3-stats.svg" />
-      </a>
-      <a href="https://github.com/mrdhnto">
-        <img src="https://raw.githubusercontent.com/mrdhnto/mrdhnto/master/profile-summary-card-output/vue/1-repos-per-language.svg" />
-      </a>
-    </div>
-</p>
-
-<div align="center" style="overflow: hidden justify-content:space-around;">
+<div align="center">
   <img src="metrics.plugin.topics.mastered.svg" width="400"/>
-  <img src="metrics.plugin.calendar.svg" width="380">
+  <img src="metrics.plugin.calendar.svg" width="380"/>
 </div>
 
 <!--START_SECTION:waka-->

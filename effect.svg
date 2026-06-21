@@ -1,90 +1,274 @@
-
 <svg fill="none" viewBox="0 0 800 400" width="900" height="400" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-            	* {
-                	line-height: .5rem;
-                }
-				@keyframes rotate {
-					0% {
-						transform: rotate(3deg);
-					}
-					100% {
-						transform: rotate(-3deg);
-					}
+				* {
+					margin: 0;
+					padding: 0;
+					box-sizing: border-box;
 				}
-				@keyframes gradientBackground {
+
+				@keyframes gradientShift {
 					0% {
 						background-position: 0% 50%;
 					}
+
 					50% {
 						background-position: 100% 50%;
 					}
+
 					100% {
 						background-position: 0% 50%;
 					}
 				}
-				@keyframes fadeIn {
-					0% {
-						opacity: 0;
-					}
-					66% {
-						opacity: 0;
-					}
+
+				@keyframes blink {
+
+					0%,
 					100% {
 						opacity: 1;
 					}
+
+					50% {
+						opacity: 0;
+					}
 				}
+
+				@keyframes slideUp {
+					0% {
+						opacity: 0;
+						transform: translateY(20px);
+					}
+
+					100% {
+						opacity: 1;
+						transform: translateY(0);
+					}
+				}
+
+				@keyframes typeIn {
+					0% {
+						width: 0;
+					}
+
+					100% {
+						width: 100%;
+					}
+				}
+
 				.container {
-					font-family:
-						system-ui,
-						-apple-system,
-						'Segoe UI',
-						Roboto,
-						Helvetica,
-						Arial,
-						sans-serif,
-						'Apple Color Emoji',
-						'Segoe UI Emoji';
+					font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono',
+						'Consolas', monospace;
 					display: flex;
 					flex-direction: column;
 					align-items: center;
 					justify-content: center;
-					margin: 0;
 					width: 100%;
 					height: 400px;
-					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
-					background-size: 600% 400%;
-					animation: gradientBackground 10s ease infinite;
-					border-radius: 10px;
-					color: white;
+					background: linear-gradient(-45deg,
+							#0f0c29,
+							#302b63,
+							#24243e,
+							#1a1a2e);
+					background-size: 400% 400%;
+					animation: gradientShift 12s ease infinite;
+					border-radius: 12px;
+					color: #e0e0e0;
 					text-align: center;
+					padding: 2rem;
+					position: relative;
+					overflow: hidden;
 				}
-				h1 {
-					font-size: 50px;
-					line-height: 1.3;
-					letter-spacing: 5px;
-					text-transform: uppercase;
-					text-shadow:
-						0 1px 0 #efefef,
-						0 2px 0 #efefef,
-						0 3px 0 #efefef,
-						0 4px 0 #efefef,
-						0 12px 5px rgba(0, 0, 0, 0.1);
-					animation: rotate ease-in-out 1s infinite alternate;
-                    			margin-bottom: 4rem;
+
+				.container::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					background: linear-gradient(transparent 0%,
+							rgba(108, 130, 251, 0.03) 50%,
+							transparent 100%);
+					pointer-events: none;
 				}
-				h2, h3 {
-					font-weight:500;
-					/* text-shadow: 0 1px 0 #efefef; */
-					animation: 1s ease 0s normal forwards 1 fadeIn;
+
+				.scanline {
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					background: repeating-linear-gradient(0deg,
+							transparent,
+							transparent 2px,
+							rgba(255, 255, 255, 0.015) 2px,
+							rgba(255, 255, 255, 0.015) 4px);
+					pointer-events: none;
+				}
+
+				.terminal {
+					background: rgba(0, 0, 0, 0.5);
+					border: 1px solid rgba(108, 130, 251, 0.2);
+					border-radius: 10px;
+					padding: 2rem 2.5rem;
+					max-width: 600px;
+					width: 100%;
+					backdrop-filter: blur(10px);
+					animation: slideUp 0.8s ease-out;
+				}
+
+				.terminal-dots {
+					display: flex;
+					gap: 8px;
+					margin-bottom: 1.25rem;
+				}
+
+				.dot {
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+				}
+
+				.dot.red {
+					background: #ff5f56;
+				}
+
+				.dot.yellow {
+					background: #ffbd2e;
+				}
+
+				.dot.green {
+					background: #27c93f;
+				}
+
+				.prompt {
+					font-size: 16px;
+					color: #6c82fb;
+					margin-bottom: 0.75rem;
+					text-align: left;
+				}
+
+				.prompt span {
+					color: #05dfd7;
+				}
+
+				.prompt .path {
+					color: #fc5c7d;
+				}
+
+				.prompt .cursor {
+					animation: blink 1s step-end infinite;
+					color: #e0e0e0;
+				}
+
+				.name {
+					font-size: 42px;
+					font-weight: 700;
+					background: linear-gradient(135deg, #fc5c7d, #6a82fb, #05dfd7);
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					background-clip: text;
+					letter-spacing: 2px;
+					margin-bottom: 0.5rem;
+					text-align: left;
+				}
+
+				.tagline {
+					font-size: 15px;
+					color: #a0a0b8;
+					text-align: left;
+					line-height: 1.6;
+				}
+
+				.tagline .highlight {
+					color: #05dfd7;
+				}
+
+				.tagline .highlight2 {
+					color: #fc5c7d;
+				}
+
+				.links {
+					display: flex;
+					gap: 16px;
+					margin-top: 1.25rem;
+					justify-content: flex-start;
+				}
+
+				.links a {
+					color: #6c82fb;
+					text-decoration: none;
+					font-size: 13px;
+					transition: color 0.2s;
+					display: flex;
+					align-items: center;
+					gap: 4px;
+				}
+
+				.links a:hover {
+					color: #05dfd7;
+				}
+
+				.lines {
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					pointer-events: none;
+					opacity: 0.03;
+				}
+
+				.output {
+					margin: 0.5rem 0;
+					text-align: left;
+				}
+
+				.output .bio-line {
+					font-size: 13px;
+					color: #c0c0d0;
+					line-height: 1.9;
 				}
 			</style>
 			<div class="container">
-				<h1>Welcome Visitor!</h1>
-				<h2>Hi, I'm Riski Mardhianto - aka Darkerside or RA121514</h2>
-				<h3>I'm a Network Engineer, Developer &amp; IT Enthusiast!</h3>
+				<div class="scanline"></div>
+				<div class="terminal">
+					<div class="terminal-dots">
+						<div class="dot red"></div>
+						<div class="dot yellow"></div>
+						<div class="dot green"></div>
+					</div>
+					<div class="prompt">
+						mrdhnto@luminix<span>:</span><span class="path">~</span><span>$</span> <span class="cursor">&#9608;</span>
+					</div>
+					<div class="name">Riski Mardhianto</div>
+					<div class="tagline">
+						Full-stack Engineer &amp; Network Architect<br />
+						<span class="highlight">Node.js</span> ·
+						<span class="highlight2">Vue</span> · TypeScript · Docker ·
+						<span class="highlight">Linux</span>
+					</div>
+					<div class="links">
+						<a href="https://mrdhnto.my.id">portfolio</a>
+						<a href="https://github.com/Mrdhnto">github</a>
+						<a href="https://linkedin.com/in/rm121514">linkedin</a>
+						<a href="mailto:riski.mardianto@gmail.com">email</a>
+					</div>
+					<hr style="margin: 1.25rem 0" />
+					<div class="output">
+						<div class="bio-line">
+							💼 Telco Company : Full-Stack Developer &#183; Server Administrator
+						</div>
+						<div class="bio-line">
+							💻 Freelance : Web Dev &#183; IT Support &#183; Linux Server Admin
+						</div>
+						<div class="bio-line">
+							🌱 Investing : AI &#183; Web Dev &#183; DevOps &amp; more
+						</div>
+						<div class="bio-line">🥅 2026 : Same as 2025 too?? Maybe....</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</foreignObject>
